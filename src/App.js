@@ -1,18 +1,25 @@
-// MIXING JS in the HTML
-// MIXING JS in JSX
-// Data Binding in HTML
-// Interpolation:: Data Binding in JSX ::
 function App() {
-  let str = `Hello World`;
+  let str = `Hello Universe!!!`;
+  let pi = 3.141159;
+  let active = true;
+  let isUserdLoggedIn = true;
 
-  // JSX :: ViEW :: USER INTERFACE :: HTML
-  // HTML + JS
+  // JSX
   return (
     <>
       <h1>Hello World</h1>
-      <h1>str</h1>
       <h1>{str}</h1>
-      <h1>{str.toUpperCase()}</h1>
+      <h1>PI {pi} !!</h1>
+
+      {/**IF Logged In */}
+      {isUserdLoggedIn && <h1>Welcome CDAC!</h1>}
+
+      {/** Usage of Boolean */}
+      <h1>{active ? "good morning" : "good night"}</h1>
+
+      {/** MOST USEFUL  */}
+      {active && <h1>Good Morning</h1>}
+      {active ? <h1>Good Morning</h1> : <h1>Good Night</h1>}
     </>
   );
 }
