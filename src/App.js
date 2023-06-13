@@ -12,6 +12,7 @@ function App() {
 
       {/** First Curly Brace represents JS Expression */}
       {/** Second Culry Brace, its object literal */}
+      <h1 style={{}}>Hello</h1>
       <h1 style={{ background: "blue", color: "white" }}>Hello Again</h1>
 
       {/** Observations */}
