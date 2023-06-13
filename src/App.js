@@ -7,8 +7,6 @@ function App() {
       <DataBlock />
       <DataBlock />
       <DataBlock />
-      <DataBlock />
-      <DataBlock />
     </>
   );
 }
