@@ -1,15 +1,18 @@
-// is this working in your system ??
-// AUTO SUGGESTION FEATURE ??
-// Auto Formatting. Prettier.
+// MIXING JS in the HTML
+// MIXING JS in JSX
+// Data Binding in HTML
+// Interpolation:: Data Binding in JSX ::
 function App() {
+  let str = `Hello World`;
+
+  // JSX :: ViEW :: USER INTERFACE :: HTML
+  // HTML + JS
   return (
     <>
-      <h1>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolores
-        dolore quam nulla repellendus. Voluptatibus ullam dolorum asperiores
-        beatae dolor, inventore, ducimus corporis esse aspernatur, perferendis
-        ratione id tempore facere?
-      </h1>
+      <h1>Hello World</h1>
+      <h1>str</h1>
+      <h1>{str}</h1>
+      <h1>{str.toUpperCase()}</h1>
     </>
   );
 }
